@@ -142,7 +142,5 @@ function! s:Cppman(page)
   exec "0"
 endfunction
 
-command! -nargs=+ Cppman call s:Cppman(expand(<q-args>)) 
-setl keywordprg=:Cppman                                  
-setl iskeyword+=:,=,~,[,],*,!,<,>                        
-
+command! -nargs=+ Cppman call s:Cppman(expand(<q-args>))
+setl keywordprg=:Cppman
