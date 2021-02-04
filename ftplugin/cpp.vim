@@ -62,7 +62,7 @@ function! LoadNewPage()
 endfunction
 
 function! s:Cppman(page)
-  vertical bo new
+  bo new
   setlocal buftype=nofile
   setlocal bufhidden=delete
   setlocal noswapfile
